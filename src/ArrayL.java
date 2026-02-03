@@ -27,5 +27,7 @@ public class ArrayL {
         for (Integer idk:al10){
             System.out.println(idk);
         }
+
+
     }
 }

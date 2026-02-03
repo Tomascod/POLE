@@ -19,11 +19,13 @@ public class pr1 {
                 {"Z", "Zlínský kraj"}
         };
 
-        String znacka = "1E5 4297";
-        String pismeno = znacka.toString().substring(1,2);
+
+        String znacka = "1P5 4297";
+        String pismeno = znacka.substring(1,2);
 
         for (int i = 0; i < znacky.length; i++) {
-            if (pismeno==znacky[i][0]){
+            if (pismeno.equals(znacky[i][0])){
+                System.out.println(znacky[i][1]);
 
             }
 

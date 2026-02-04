@@ -24,8 +24,6 @@ public class pr2 {
             if ((pole[i][0].equals(den))&&(pole[i][1].equals(mesic))) {
                 System.out.println("Svátek: "+pole[i][2]);
             }
-
-
         }
 
 

@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class pr4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("kolik prvků mí mít pole");
+        System.out.print("kolik prvků mí mít pole?");
         Integer number = sc.nextInt();
 
         ArrayList<Integer> pole = new ArrayList<>(number);

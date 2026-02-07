@@ -1,5 +1,7 @@
 package Priklady;
 
+import java.util.Scanner;
+
 public class pr1 {
     public static void main(String[] args) {
         String[][] znacky = {
@@ -19,9 +21,10 @@ public class pr1 {
                 {"Z", "Zlínský kraj"}
         };
 
-
-        String znacka = "1P5 4297";
-        String pismeno = znacka.substring(1,2);
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Zadejte vaši značku ve formátu (XYX XXXX)");
+        String input = sc.nextLine();
+        String pismeno = input.substring(1,2);
 
         for (int i = 0; i < znacky.length; i++) {
             if (pismeno.equals(znacky[i][0])){

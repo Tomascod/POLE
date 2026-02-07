@@ -9,7 +9,7 @@ public class pr5 {
         Scanner sc = new Scanner(System.in);
         boolean ano = true;
 
-        System.out.println("Zadejte číslo ( až nebude chtít, atk zadejte -1) ");
+        System.out.println("Zadejte číslo (až nebude chtít, tak zadejte -1) ");
         while(ano){
             int input = sc.nextInt();
             if(input==-1){

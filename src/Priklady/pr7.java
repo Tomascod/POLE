@@ -41,8 +41,8 @@ Integer[][] pole = {
             }
         }
 
-        float procentualniObsazeni = (float)((100/ pole.length)*obsazeni);
-        System.out.println(procentualniObsazeni);
+        float procentualniObsazeni = (((100f/ (pole.length*pole[0].length))*obsazeni));
+        System.out.println("je zaplněno "+procentualniObsazeni+"% míst");
 
 
     }

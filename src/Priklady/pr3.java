@@ -47,7 +47,6 @@ public class pr3 {
             } else if (rozhodnuti.equals("vypis")){
                 System.out.println(Arrays.deepToString(tabulka.toArray()));
             }else {break;}
-
         }
     }
 }

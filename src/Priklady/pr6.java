@@ -3,8 +3,8 @@ import java.util.Arrays;
 public class pr6 {
     public static void main(String[] args) {
         Integer[][] pole = {
-                {1,2,3},
-                {4,5,6}
+                {1,2,3,4,5},
+                {6,7,8,9,10}
         };
 
         System.out.println(Arrays.deepToString(pole));

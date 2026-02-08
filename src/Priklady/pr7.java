@@ -29,8 +29,6 @@ Integer[][] pole = {
                     pole[row][sedadlo] = 1;
                 }
 
-        System.out.println(Arrays.deepToString(pole));
-
                 int obsazeni = 0;
 
         for (int i = 0; i < pole.length; i++) {
@@ -41,7 +39,7 @@ Integer[][] pole = {
             }
         }
 
-        float procentualniObsazeni = (((100f/ (pole.length*pole[0].length))*obsazeni));
+        float procentualniObsazeni = ((obsazeni * 100.0f) / (pole[0].length*pole.length));
         System.out.println("je zaplněno "+procentualniObsazeni+"% míst");
 
 

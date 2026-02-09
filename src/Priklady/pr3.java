@@ -13,7 +13,6 @@ public class pr3 {
         pridavani.add("anglicky");
         tabulka.add(pridavani);
 
-
         Scanner input = new Scanner(System.in);
 
         while(true){

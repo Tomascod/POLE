@@ -24,11 +24,14 @@ public class bonus {
 
         System.out.println("Zadejte množství pokladů");
         Integer poklad = input.nextInt();
-        int idk=0;
+
         while(true){
+
+            int idk=0;
+
 boolean jedna=false;
-            for (int k = 0; k < hra.length; k++) {
-                for (int d = 0; d <hra[k].length ; d++) {
+            for (int k = 0; k < hra.length-1; k++) {
+                for (int d = 0; d < hra[k].length-1 ; d++) {
                     if (hra[k][d]==1){
                         idk++;
                         if (idk>=poklad){
@@ -37,7 +40,8 @@ boolean jedna=false;
                     }
                 }
             }
-            Integer ok = random.nextInt(0, 5);
+
+            Integer ok = random.nextInt(0, hra.length-1);
 
             for (int h = 0; h < poklad; h++) {
                 hra[ok][ok] =1;

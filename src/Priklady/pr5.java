@@ -11,10 +11,10 @@ public class pr5 {
         boolean ano = true;
 
         System.out.println("Zadejte číslo (až nebude chtít, tak zadejte -1) ");
-        while(ano){
+        while(true){
             int input = sc.nextInt();
             if(input==-1){
-                ano = false;
+                break;
             }else al1.add(input);
         }
 

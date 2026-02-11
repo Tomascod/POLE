@@ -1,6 +1,7 @@
 package Priklady;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class pr5 {
@@ -17,8 +18,6 @@ public class pr5 {
             }else al1.add(input);
         }
 
-        for (int read:al1){
-            System.out.print(read+" | ");
-        }
+        System.out.println(al1.toString());
     }
 }

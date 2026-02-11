@@ -10,6 +10,8 @@ Integer[][] pole = {
         {0,1,0,1,1},
         {1,1,1,0,0}
 };
+
+        System.out.println(Arrays.deepToString(pole));
         Scanner sc = new Scanner(System.in);
         System.out.println("zadejte řadu (1-3) ");
         Integer row = sc.nextInt();
@@ -39,7 +41,7 @@ Integer[][] pole = {
             }
         }
 
-        float procentualniObsazeni = ((obsazeni * 100.0f) / (pole[0].length*pole.length));
+        float procentualniObsazeni = Math.round(((obsazeni * 100.0f) / (pole[0].length*pole.length)));
         System.out.println("je zaplněno "+procentualniObsazeni+"% míst");
 
 
